@@ -10,7 +10,7 @@ from tkinter import simpledialog
 from DDBB import *
 
 
-class procesos():
+class Procesos():
 
     def __init__(self):
         self.mainVentana = tk.Tk()
@@ -101,7 +101,7 @@ class procesos():
 
 
 
-ej = procesos()
+ej = Procesos()
 
 
 
