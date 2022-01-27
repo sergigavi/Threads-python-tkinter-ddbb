@@ -39,8 +39,8 @@ class Procesos():
         if self.con.get() == 0:
             self.tiempoRemaining.set("50")
 
-            for i in range(int(self.tiempoRemaining.get())):
-                time.sleep(1) #Espera 15 segundos y cierra la conexion
+            for i in range(int(self.tiempoRemaining.get())):#Espera x segundos y cierra la conexion
+                time.sleep(1)
                 self.tiempoRemaining.set(value=str(int(self.tiempoRemaining.get())-1))
 
             self.db.desconectar()
