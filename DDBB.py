@@ -54,25 +54,25 @@ class DDBB():
         #self.cursor = self.conexion.cursor() `
 
         self.cursor.execute("INSERT INTO hilos.Alumnos (dni, nombre, apellido1, apellido2, direccion, telefono) "+
-        "VALUES ('000000001', 'Jorge', 'Carmona', 'Mateo', 'C/Mortadela', '658394853')")
+        "VALUES ('000000001', 'Jorge', 'Carmona', 'Carreño', 'C/Mortadela', '658394853')")
 
         self.cursor.execute("INSERT INTO hilos.Alumnos (dni, nombre, apellido1, apellido2, direccion, telefono) "+
         "VALUES ('000000002', 'Manu', 'Gaga', 'Gonzalez', 'C/Lechuga', '685947564')")
 
         self.cursor.execute("INSERT INTO hilos.Alumnos (dni, nombre, apellido1, apellido2, direccion, telefono) "+
-        "VALUES ('000000003', 'Alex', 'Fernandez', 'de Haro', 'C/Espinaca', '583495040')")
+        "VALUES ('000000003', 'Alex', 'Fernandez', 'Haro', 'C/Espinaca', '583495040')")
 
         self.cursor.execute("INSERT INTO hilos.Alumnos (dni, nombre, apellido1, apellido2, direccion, telefono) "+
         "VALUES ('000000004', 'Luis Alberto', 'Maquina', 'Virtual', 'C/Divas', '863045303')")
 
         self.cursor.execute("INSERT INTO hilos.Alumnos (dni, nombre, apellido1, apellido2, direccion, telefono) "+
-        "VALUES ('000000005', 'Miguel', 'Sutil', 'Martin', 'C/Datos accesibles', '863045303')")
+        "VALUES ('000000005', 'Miguel', 'Santos', 'Martin', 'C/Datos accesibles', '863045303')")
 
         self.cursor.execute("INSERT INTO hilos.Alumnos (dni, nombre, apellido1, apellido2, direccion, telefono) "+
-        "VALUES ('000000006', 'Mario', 'Santos', 'Rebollo', 'C/Interfaces', '863045303')")
+        "VALUES ('000000006', 'Mario', 'Sutil', 'Rebollo', 'C/Interfaces', '863045303')")
 
         self.cursor.execute("INSERT INTO hilos.Alumnos (dni, nombre, apellido1, apellido2, direccion, telefono) "+
-        "VALUES ('000000007', 'Maria', 'Ruiz', 'Carreño', 'C/Bombon', '863045303')")
+        "VALUES ('000000007', 'Maria', 'Ruiz', 'Laguapa', 'C/Bombon', '863045303')")
 
         self.cursor.execute("INSERT INTO hilos.Alumnos (dni, nombre, apellido1, apellido2, direccion, telefono) "+
         "VALUES ('000000008', 'Jose Julio', 'Landazuri', 'Elcrack', 'C/Joseju', '863045303')")
