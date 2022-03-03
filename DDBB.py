@@ -25,7 +25,7 @@ class DDBB():
             messagebox.showinfo(message="conectado correctamente con la base de datos")
             
 
-        self.crearDDBB()
+        #self.crearDDBB()
         
     def desconectar(self):
         self.conexion.close()
